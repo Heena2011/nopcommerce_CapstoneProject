@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T11:45:04 IST" name="Suite" finished-at="2025-09-08T11:53:48 IST" duration-ms="524188">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T11:45:04 IST" name="testNg" finished-at="2025-09-08T11:53:48 IST" duration-ms="524188">
+      <class name="testCase.TS006_CheckOut">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TS006_CheckOut@2cd76f31]" started-at="2025-09-08T11:51:41 IST" name="setUp" finished-at="2025-09-08T11:52:14 IST" duration-ms="32919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_checkout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TS006_CheckOut@2cd76f31]" started-at="2025-09-08T11:52:15 IST" name="verify_checkout" data-provider="CheckoutData" finished-at="2025-09-08T11:53:46 IST" duration-ms="91363" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kondawa]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[411048]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9811223344]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Adobe Photoshop]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: BillingNewAddress_CountryId (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55878}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\NIHAL\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55878/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2fb4fd79d2afd4cab7e0a8c510ec4a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: BillingNewAddress_CountryId (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55878}, msedge: {msedgedriverVersion: 140.0.3485.54 (3cc379a8a5fb..., userDataDir: C:\Users\NIHAL\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55878/devtoo..., se:cdpVersion: 140.0.3485.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a2fb4fd79d2afd4cab7e0a8c510ec4a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pageObjects.CheckoutPage.billingCountry(CheckoutPage.java:212)
+at testCase.TS006_CheckOut.verify_checkout(TS006_CheckOut.java:130)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TS006_CheckOut@2cd76f31]" started-at="2025-09-08T11:53:47 IST" name="tearDown" finished-at="2025-09-08T11:53:48 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TS006_CheckOut -->
+      <class name="testCase.TS005_WishList">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TS005_WishList@40005471]" started-at="2025-09-08T11:50:53 IST" name="setUp" finished-at="2025-09-08T11:51:03 IST" duration-ms="9942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_wishlist(java.lang.String)[pri:0, instance:testCase.TS005_WishList@40005471]" started-at="2025-09-08T11:51:03 IST" name="verify_wishlist" data-provider="SearchData" finished-at="2025-09-08T11:51:40 IST" duration-ms="37109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_wishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TS005_WishList@40005471]" started-at="2025-09-08T11:51:40 IST" name="tearDown" finished-at="2025-09-08T11:51:41 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TS005_WishList -->
+      <class name="testCase.TS002_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TS002_LoginTest@26794848]" started-at="2025-09-08T11:45:47 IST" name="setUp" finished-at="2025-09-08T11:45:54 IST" duration-ms="7545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_VerifyLoginCredentialValidData()[pri:0, instance:testCase.TS002_LoginTest@26794848]" started-at="2025-09-08T11:45:54 IST" name="TC001_VerifyLoginCredentialValidData" finished-at="2025-09-08T11:46:32 IST" depends-on-methods="testCase.TS001_AccountRegistration.registrationTest" duration-ms="37231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_VerifyLoginCredentialValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TS002_LoginTest@26794848]" started-at="2025-09-08T11:46:32 IST" name="tearDown" finished-at="2025-09-08T11:46:33 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TS002_LoginTest -->
+      <class name="testCase.TS001_AccountRegistration">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TS001_AccountRegistration@3bf7ca37]" started-at="2025-09-08T11:45:05 IST" name="setUp" finished-at="2025-09-08T11:45:38 IST" duration-ms="32611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registrationTest()[pri:1, instance:testCase.TS001_AccountRegistration@3bf7ca37]" started-at="2025-09-08T11:45:38 IST" name="registrationTest" finished-at="2025-09-08T11:45:46 IST" duration-ms="8034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TS001_AccountRegistration@3bf7ca37]" started-at="2025-09-08T11:45:46 IST" name="tearDown" finished-at="2025-09-08T11:45:47 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TS001_AccountRegistration -->
+      <class name="testCase.TS003_SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TS003_SearchTest@302552ec]" started-at="2025-09-08T11:46:33 IST" name="setUp" finished-at="2025-09-08T11:46:40 IST" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Search(java.lang.String)[pri:0, instance:testCase.TS003_SearchTest@302552ec]" started-at="2025-09-08T11:46:44 IST" name="verify_Search" data-provider="SearchData" finished-at="2025-09-08T11:48:23 IST" duration-ms="99138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TS003_SearchTest@302552ec]" started-at="2025-09-08T11:48:23 IST" name="tearDown" finished-at="2025-09-08T11:48:24 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TS003_SearchTest -->
+      <class name="testCase.TS004_AddToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TS004_AddToCart@3d285d7e]" started-at="2025-09-08T11:48:24 IST" name="setUp" finished-at="2025-09-08T11:48:46 IST" duration-ms="22103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_addToCart(java.lang.String)[pri:0, instance:testCase.TS004_AddToCart@3d285d7e]" started-at="2025-09-08T11:48:47 IST" name="verify_addToCart" data-provider="SearchData" finished-at="2025-09-08T11:50:52 IST" duration-ms="125416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_addToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TS004_AddToCart@3d285d7e]" started-at="2025-09-08T11:50:52 IST" name="tearDown" finished-at="2025-09-08T11:50:53 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TS004_AddToCart -->
+    </test> <!-- testNg -->
+  </suite> <!-- Suite -->
+</testng-results>

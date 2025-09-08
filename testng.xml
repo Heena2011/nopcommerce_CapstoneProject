@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="testNg">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+  
+    <classes>
+      <class name="testCase.TS001_AccountRegistration"/>
+     <class name="testCase.TS002_LoginTest"/> 
+        <class name="testCase.TS003_SearchTest"/> 
+      <class name="testCase.TS004_AddToCart"/>
+      <class name="testCase.TS005_WishList"/>
+      <class name="testCase.TS006_CheckOut"/> 
+        
+    
+      
+    </classes>
+  </test> <!-- testNg -->
+</suite> <!-- Suite -->
