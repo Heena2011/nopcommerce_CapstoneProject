@@ -64,8 +64,10 @@ I have automated the following pages using **Selenium + TestNG**:
 📊 Project Presentation
 
 Project PPT explaining framework and test strategy:
+
 https://docs.google.com/presentation/d/1NzMw7rBvCq4eQi__mITjEmltL4B3saIQ/edit?usp=sharing&ouid=107299232688763394299&rtpof=true&sd=true
 
+This project is created for **portfolio and recruitment purposes**.
 
 ---
 
@@ -85,8 +87,7 @@ nopcommerce_CapstoneProject/
 ├── testng.xml                  # TestNG suite configuration
 
 
----
-This project is created for **portfolio and recruitment purposes**.
+
 
 
 
