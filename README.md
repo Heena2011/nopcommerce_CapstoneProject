@@ -59,6 +59,14 @@ I have automated the following pages using **Selenium + TestNG**:
 - **Maven project** for dependency management and build
 - Screenshots captured for failures (stored in `Screenshots` folder)
 - HTML test reports generated after execution (stored in `reports` folder)
+---
+
+📊 Project Presentation
+
+Project PPT explaining framework and test strategy:
+https://docs.google.com/presentation/d/1NzMw7rBvCq4eQi__mITjEmltL4B3saIQ/edit?usp=sharing&ouid=107299232688763394299&rtpof=true&sd=true
+
+This project is created for **portfolio and recruitment purposes**.
 
 ---
 
@@ -78,9 +86,4 @@ nopcommerce_CapstoneProject/
 ├── testng.xml                  # TestNG suite configuration
 
 
-📊 Project Presentation
 
-Project PPT explaining framework and test strategy:
-https://docs.google.com/presentation/d/1NzMw7rBvCq4eQi__mITjEmltL4B3saIQ/edit?usp=sharing&ouid=107299232688763394299&rtpof=true&sd=true
-
-This project is created for **portfolio and recruitment purposes**.
