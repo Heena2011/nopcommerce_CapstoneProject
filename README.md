@@ -66,7 +66,6 @@ I have automated the following pages using **Selenium + TestNG**:
 Project PPT explaining framework and test strategy:
 https://docs.google.com/presentation/d/1NzMw7rBvCq4eQi__mITjEmltL4B3saIQ/edit?usp=sharing&ouid=107299232688763394299&rtpof=true&sd=true
 
-This project is created for **portfolio and recruitment purposes**.
 
 ---
 
@@ -84,6 +83,10 @@ nopcommerce_CapstoneProject/
 ├── docs/                       # Project PPT/Presentation
 ├── pom.xml                     # Maven project configuration
 ├── testng.xml                  # TestNG suite configuration
+
+
+---
+This project is created for **portfolio and recruitment purposes**.
 
 
 
