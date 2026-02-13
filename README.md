@@ -1,5 +1,7 @@
 🛒 NopCommerce Automation Testing Project
+
 👩‍💻 Project Owner: Heena Mulani
+
 This is a capstone QA & Automation project developed by me to demonstrate hands-on skills in manual and automation testing for a nopCommerce e-commerce application.
 The project includes:
 Automation of core pages using Selenium WebDriver and TestNG
